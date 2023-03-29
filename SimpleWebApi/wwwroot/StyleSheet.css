@@ -1,0 +1,102 @@
+﻿td {
+    padding: 5px;
+}
+
+button {
+    margin: 5px;
+}
+
+.saveBtn {
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    float: left;
+    padding: 12px 10px;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 15px;
+    opacity: 0.8;
+}
+
+    .saveBtn:hover {
+        opacity: 1;
+    }
+
+.resetBtn {
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    float: left;
+    padding: 12px 10px;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 15px;
+    opacity: 0.8;
+}
+
+    .resetBtn:hover {
+        opacity: 1;
+    }
+
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+}
+
+    .form-container input[type=text], .form-container input[type=date] {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0 15px 0;
+        border: none;
+        background: #f1f1f1;
+    }
+
+
+        .form-container input[type=text]:focus, .form-container input[type=date]:focus {
+            background-color: #ddd;
+            outline: none;
+        }
+
+#contacts {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+    #contacts td, #contacts th {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    #contacts tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    #contacts tr:hover {
+        background-color: #ddd;
+    }
+
+    #contacts th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #04AA6D;
+        color: white;
+    }
+
+    #contacts button {
+        border: none;
+        border-radius: 5px;
+        background-color: #4CAF50;
+        color: white;
+        float: left;
+        padding: 5px 15px;
+        margin-left: 5px;
+        color: #fff;
+        cursor: pointer;
+        margin-bottom: 5px;
+        opacity: 0.8;
+    }
